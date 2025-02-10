@@ -13,7 +13,7 @@ interface Product {
   img: string;
 }
 
-export default function page() {
+export default function Page() {
 
     const [products, setProducts] = useState<Product[]>([]);
     const [error, setError] = useState<string | null>(null);
